@@ -1,0 +1,10 @@
+{
+  "inputs": "<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>あなたは親切なアシスタントです。<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|USER_TOKEN|>こんにちは。<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|><attributes>helpfulness: 4 correctness: 4 coherence: 4 complexity: 4 verbosity: 4 quality: 4 toxicity: 0 humor: 0 creativity: 0</attributes>",
+  "parameters": {
+    "do_sample": true,
+    "max_new_tokens": 256,
+    "temperature": 0.3,
+    "top_p": 0.3,
+    "return_full_text": false
+  }
+}
